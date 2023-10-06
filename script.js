@@ -1,3 +1,8 @@
+var log = document.getElementbyId("log");
+var home = document.getElementbyId("home");
+log.style.display = "block";
+home.style.display = "none";
 function signin(){
-  //I will add later
+  log.style.display = "none";
+  home.style.display = "block";
 }

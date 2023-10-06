@@ -5,4 +5,5 @@ home.style.display = "none";
 function signin(){
   log.style.display = "none";
   home.style.display = "block";
+  cookies();
 }

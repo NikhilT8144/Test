@@ -3,6 +3,8 @@ var log = document.getElementbyId("log");
 var home = document.getElementbyId("home");
 var time = getTime();
 var inlog = 0;
+var datetime = document.getElementbyId("datetime");
+datetime.innerHTML = time;
 log.style.display = "block";
 home.style.display = "none";
 function signin(){

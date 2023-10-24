@@ -1,9 +1,10 @@
 //basic functions
 let log = document.getElementById("log");
 let home = document.getElementById("home");
+let usrid = document.getElementById("usr").value;
 log.style.display = "block";
 home.style.display = "none";
-if (document.getElementById("log").style.display == "block") {
+if (log.style.display == "block") {
   window.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     document.getElementById("signinbtn").click();
@@ -20,6 +21,7 @@ function signin() {
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + date);
+  document.getElementById("title").innerHTML = "Welcome" + usrid;
   cookies();
 }
 //cookies function

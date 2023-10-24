@@ -11,7 +11,7 @@ function signin(){
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
   setInterval(function setdt(){
-  dt.innerHTML = time;
+  dt.innerHTML = time.toLocaleTimeString();
   }, 0);
   cookies();
 }

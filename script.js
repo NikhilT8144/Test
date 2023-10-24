@@ -5,7 +5,7 @@ var time = new Date();
 var dt = document.getElementbyId("dt");
 function setdt(){
   dt.innerHTML = time;
-}
+};
 setTimeout(setdt(), 0);
 log.style.display = "block";
 home.style.display = "none";

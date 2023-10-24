@@ -1,8 +1,8 @@
 //basic functions
-var log = document.getElementById("log");
-var home = document.getElementById("home");
-var time = new Date();
-var dt = document.getElementById("dt");
+let log = document.getElementById("log");
+let home = document.getElementById("home");
+let time = new Date();
+let dt = document.getElementById("dt");
 function setdt(){
   dt.innerHTML = time;
 };
@@ -13,7 +13,7 @@ function signin(){
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
-  var inlog = "Successful on " + time;
+  let inlog = "Successful on " + time;
   cookies();
 }
 //cookies function

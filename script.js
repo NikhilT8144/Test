@@ -21,7 +21,7 @@ function signin(){
   cookies();
 };
 function setdt(){
-  dt.innerHTML = time.toLocaleTimeString();
+  dt.innerHTML = time;
 };
 //cookies function
 function cookies(){

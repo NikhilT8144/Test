@@ -3,7 +3,7 @@ let log = document.getElementById("log");
 let home = document.getElementById("home");
 let time = new Date();
 let dt = document.getElementById("dt");
-setTimeout(function setdt(){
+setInterval(function setdt(){
   dt.innerHTML = time;
 }, 0);
 log.style.display = "block";

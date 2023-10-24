@@ -12,7 +12,6 @@ function signin(){
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
-  let inlog = "Successful on " + time;
   cookies();
 }
 //cookies function

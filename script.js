@@ -11,6 +11,7 @@ if(log.style.display == "block"){
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("signinbtn").click();
+  };
   });
 };
 function signin(){

@@ -5,13 +5,14 @@ body{
   font-family:arial;
 }
 .screen{
+  text-align:center;
 }
 #title{
   color:deepskyblue;
 }
 #dt{
   text-align:center;
-  position: fixed;
+  position: absolute;
   width: 50%;
   bottom: 10px;
 }

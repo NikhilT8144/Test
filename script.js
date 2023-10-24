@@ -3,10 +3,9 @@ let log = document.getElementById("log");
 let home = document.getElementById("home");
 let time = new Date();
 let dt = document.getElementById("dt");
-function setdt(){
+setTimeout(function setdt(){
   dt.innerHTML = time;
-};
-setTimeout(setdt(), 0);
+}, 0);
 log.style.display = "block";
 home.style.display = "none";
 function signin(){

@@ -1,10 +1,9 @@
 //basic functions
 let log = document.getElementById("log");
 let home = document.getElementById("home");
-
 log.style.display = "block";
 home.style.display = "none";
-if (log.style.display == "block") {
+if (document.getElementById("log").style.display == "block") {
   window.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();

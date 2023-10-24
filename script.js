@@ -2,7 +2,8 @@
 let log = document.getElementById("log");
 let home = document.getElementById("home");
 let dt = document.getElementById("dt");
-const time = new Date();
+let time = new Date();
+let dtinterval = setInterval(setdt, 0);
 log.style.display = "block";
 home.style.display = "none";
 if(log.style.display == "block"){
@@ -17,7 +18,7 @@ function signin(){
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
-  setInterval(function setdt(){
+  function setdt(){
   dt.innerHTML = time.toLocaleTimeString();
   }, 0);
   cookies();

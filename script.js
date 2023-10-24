@@ -20,7 +20,7 @@ function setdt() {
 function signin() {
   log.style.display = "none";
   home.style.display = "block";
-  console.log("Sign In Sucessful on " + time);
+  console.log("Sign In Sucessful on " + date);
   cookies();
 }
 //cookies function

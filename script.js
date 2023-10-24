@@ -24,6 +24,6 @@ function signin() {
   cookies();
 }
 //cookies function
-function cookies()m{
+function cookies() {
 //later
 }

@@ -10,14 +10,14 @@ if(log.style.display == "block"){
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("signinbtn").click();
-  }
+  }else{
+    let dtinterval = setInterval(setdt, 0);
   });
 };
 function signin(){
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
-  let dtinterval = setInterval(setdt, 0);
   cookies();
 };
 function setdt(){

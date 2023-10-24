@@ -7,7 +7,8 @@ body{
 }
 .screen{
   text-align:center;
-  box-shadow: 10px 10px 5px lightblue;
+  border:1px lightblue;
+  box-shadow:10px 10px 5px lightblue;
   border-radius:4px;
 }
 #title{
@@ -20,14 +21,17 @@ body{
   bottom:10px;
 }
 .input{
-  margin-top:10px;
-  margin-bottom:10px;
+  margin-top:5px;
+  margin-bottom:5px;
+  top-padding:4px;
+  left-padding:7.5px;
+  right-padding:7.5px;
   text-align:center;
-  width:15%;
 }
 .btn{
-  width:10%;
+  bottom-padding:10px;
   color:white;
+  border:1px solid #00ff00;
   background-color:#00ff00;
   border-radius:4px;
 }

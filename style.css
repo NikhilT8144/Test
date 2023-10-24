@@ -8,6 +8,7 @@ body{
   text-align:center;
 }
 #title{
+  text-align:center;
   color:deepskyblue;
 }
 #dt{
@@ -16,6 +17,6 @@ body{
   bottom:10px;
 }
 .input{
-  width:10%;
-  height:5%;
+  text-align:center;
+  width:15%;
 }

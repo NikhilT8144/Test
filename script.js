@@ -1,8 +1,8 @@
 //basic functions
-var log = document.getElementbyId("log");
-var home = document.getElementbyId("home");
+var log = document.getElementById("log");
+var home = document.getElementById("home");
 var time = new Date();
-var dt = document.getElementbyId("dt");
+var dt = document.getElementById("dt");
 function setdt(){
   dt.innerHTML = time;
 };

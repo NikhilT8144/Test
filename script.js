@@ -6,7 +6,6 @@ home.style.display = "none";
 if (document.getElementById("log").style.display == "block") {
   window.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
-    event.preventDefault();
     document.getElementById("signinbtn").click();
   }
   });

@@ -3,9 +3,12 @@ body{
   color:white;
   background-color:black;
   font-family:arial;
+  font-size:15px;
 }
 .screen{
   text-align:center;
+  box-shadow: 10px 10px 5px lightblue;
+  border-radius:4px;
 }
 #title{
   text-align:center;
@@ -17,6 +20,17 @@ body{
   bottom:10px;
 }
 .input{
+  margin-top:10px;
+  margin-bottom:10px;
   text-align:center;
   width:15%;
+}
+.btn{
+  width:10%;
+  color:white;
+  background-color:#00ff00;
+  border-radius:4px;
+}
+.btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

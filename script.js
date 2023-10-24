@@ -18,11 +18,11 @@ function signin(){
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
-  function setdt(){
-  dt.innerHTML = time.toLocaleTimeString();
-  }, 0);
   cookies();
-}
+};
+function setdt(){
+  dt.innerHTML = time.toLocaleTimeString();
+};
 //cookies function
 function cookies(){
 //later

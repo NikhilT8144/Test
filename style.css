@@ -1,9 +1,20 @@
+ @media screen and (max-width: 500px) { 
+  width: 70%; 
+} 
 body{
   text-align:center;
   color:white;
   background-color:black;
   font-family:arial;
+  width:100%;
+  height:100%;
 }
-#h1{
+.screen{
+  margin-top:45%;
+}
+#title{
   color:deepskyblue;
+}
+#dt{
+  margin-top:93.06%;
 }

@@ -1,7 +1,7 @@
 //basic functions
 var log = document.getElementbyId("log");
 var home = document.getElementbyId("home");
-var time = getTime();
+var time = Date();
 var inlog = 0;
 var datetime = document.getElementbyId("datetime");
 datetime.innerHTML = time;

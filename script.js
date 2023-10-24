@@ -1,9 +1,9 @@
 //basic functions
 var log = document.getElementbyId("log");
 var home = document.getElementbyId("home");
-var time = Date();
-var datetime = document.getElementbyId("datetime");
-dt.innerHTML = time;
+var time = new Date();
+var dt = document.getElementbyId("dt");
+setTimeout(dt.innerHTML = time;, 0);
 log.style.display = "block";
 home.style.display = "none";
 function signin(){

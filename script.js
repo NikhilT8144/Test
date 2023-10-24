@@ -2,28 +2,28 @@
 let log = document.getElementById("log");
 let home = document.getElementById("home");
 let dt = document.getElementById("dt");
-let time = new Date();
+let date = new Date();
 let dtinterval = setInterval(setdt, 0);
 log.style.display = "block";
 home.style.display = "none";
-if(log.style.display == "block"){
+if (log.style.display == "block") {
   window.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("signinbtn").click();
-  };
+  }
   });
-};
-function signin(){
+}
+function setdt() {
+  dt.innerHTML = date;
+}
+function signin() {
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
   cookies();
-};
-function setdt(){
-  dt.innerHTML = time;
-};
+}
 //cookies function
-function cookies(){
+function cookies()m{
 //later
 }

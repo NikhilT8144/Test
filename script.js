@@ -11,7 +11,7 @@ if(log.style.display == "block"){
     event.preventDefault();
     document.getElementById("signinbtn").click();
   }else{
-    let dtinterval = setInterval(setdt, 0);
+    let dtinterval = setInterval(setdt, 1000);
   });
 };
 function signin(){

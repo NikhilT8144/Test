@@ -7,7 +7,7 @@ let dtinterval = setInterval(setdt, 0);
 log.style.display = "block";
 home.style.display = "none";
 if(log.style.display == "block"){
-  log.addEventListener("keypress", function(event) {
+  window.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("signinbtn").click();

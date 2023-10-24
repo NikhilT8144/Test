@@ -11,7 +11,7 @@ function signin(){
   home.style.display = "block";
   console.log("Sign In Sucessful on " + time);
   setInterval(function setdt(){
-  dt.innerHTML = text.replace(time, time);
+  dt.innerHTML = time;
   }, 0);
   cookies();
 }

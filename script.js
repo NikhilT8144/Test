@@ -3,15 +3,14 @@ let log = document.getElementById("log");
 let home = document.getElementById("home");
 let dt = document.getElementById("dt");
 let time = new Date();
+let dtinterval = setInterval(setdt, 0);
 log.style.display = "block";
 home.style.display = "none";
 if(log.style.display == "block"){
-  window.addEventListener("keypress", function(event) {
+  log.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("signinbtn").click();
-  }else{
-    let dtinterval = setInterval(setdt, 1000);
   });
 };
 function signin(){

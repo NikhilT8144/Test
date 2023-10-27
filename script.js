@@ -25,8 +25,10 @@ function signin() {
   log.style.display = "none";
   home.style.display = "block";
   console.log("Sign In Sucessful on " + date);
-  document.getElementById("title").innerHTML = "Welcome" + getCookie("username");
   setCookie("username", usrid);
+setTimeout(function (){
+  document.getElementById("title").innerHTML = "Welcome" + getCookie("username");
+}, 1000);
 }
 //set cookie function
 function setCookie(cname, cvalue, exdays) {

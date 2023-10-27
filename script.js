@@ -1,7 +1,7 @@
 //basic functions
 let log = document.getElementById("log");
 let home = document.getElementById("home");
-let usrid = document.getElementById("usr").value;
+let usrid = document.getElementById("usr").innerHTML;
 log.style.display = "block";
 home.style.display = "none";
 if (log.style.display == "block") {
